@@ -1,1 +1,0 @@
-# SGUARD: A Feature-based Clustering Tool for Effective Spreadsheet Defect Detection
