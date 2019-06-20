@@ -1,6 +1,6 @@
-# github-markdown-css
+# SGUARD
 
-> The minimal amount of CSS to replicate the GitHub Markdown style
+> A Feature-based Clustering Tool for Effective Spreadsheet Defect Detection
 
 [<img src="https://cloud.githubusercontent.com/assets/170270/5219062/f22a978c-7685-11e4-8316-af25b6c89bc0.png" width="300">](http://sindresorhus.com/github-markdown-css)
 
