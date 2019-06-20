@@ -1,1 +1,39 @@
-Hello world
+<h1 id="github-markdown-css">github-markdown-css</h1>
+<blockquote>
+<p>The minimal amount of CSS to replicate the GitHub Markdown style</p>
+</blockquote>
+<p><a href="http://sindresorhus.com/github-markdown-css"><img src="https://cloud.githubusercontent.com/assets/170270/5219062/f22a978c-7685-11e4-8316-af25b6c89bc0.png" width="300"></a></p>
+<h2 id="demo"><a href="http://sindresorhus.com/github-markdown-css">Demo</a></h2>
+<h2 id="install">Install</h2>
+<p>Download <a href="https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css">manually</a>, from <a href="https://cdnjs.com/libraries/github-markdown-css">CDNJS</a>, or with npm:</p>
+<pre><code>$ npm install github-markdown-css</code></pre>
+<h2 id="usage">Usage</h2>
+<p>Import the <code>github-markdown.css</code> file and add a <code>markdown-body</code> class to the container of your rendered Markdown and set a width for it. GitHub uses <code>980px</code> width and <code>45px</code> padding, and <code>15px</code> padding for mobile.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">&lt;meta</span><span class="ot"> name=</span><span class="st">&quot;viewport&quot;</span><span class="ot"> content=</span><span class="st">&quot;width=device-width, initial-scale=1&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb2-2" title="2"><span class="kw">&lt;link</span><span class="ot"> rel=</span><span class="st">&quot;stylesheet&quot;</span><span class="ot"> href=</span><span class="st">&quot;github-markdown.css&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="kw">&lt;style&gt;</span></a>
+<a class="sourceLine" id="cb2-4" title="4">    <span class="fu">.markdown-body</span> {</a>
+<a class="sourceLine" id="cb2-5" title="5">        <span class="kw">box-sizing</span>: <span class="dv">border-box</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb2-6" title="6">        <span class="kw">min-width</span>: <span class="dv">200</span><span class="dt">px</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb2-7" title="7">        <span class="kw">max-width</span>: <span class="dv">980</span><span class="dt">px</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb2-8" title="8">        <span class="kw">margin</span>: <span class="dv">0</span> <span class="bu">auto</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb2-9" title="9">        <span class="kw">padding</span>: <span class="dv">45</span><span class="dt">px</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb2-10" title="10">    }</a>
+<a class="sourceLine" id="cb2-11" title="11"></a>
+<a class="sourceLine" id="cb2-12" title="12">    <span class="im">@media</span> (<span class="kw">max-width</span>: <span class="dv">767</span><span class="dt">px</span>) {</a>
+<a class="sourceLine" id="cb2-13" title="13">        <span class="fu">.markdown-body</span> {</a>
+<a class="sourceLine" id="cb2-14" title="14">            <span class="kw">padding</span>: <span class="dv">15</span><span class="dt">px</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb2-15" title="15">        }</a>
+<a class="sourceLine" id="cb2-16" title="16">    }</a>
+<a class="sourceLine" id="cb2-17" title="17"><span class="kw">&lt;/style&gt;</span></a>
+<a class="sourceLine" id="cb2-18" title="18"><span class="kw">&lt;article</span><span class="ot"> class=</span><span class="st">&quot;markdown-body&quot;</span><span class="kw">&gt;</span></a>
+<a class="sourceLine" id="cb2-19" title="19">    <span class="kw">&lt;h1&gt;</span>Unicorns<span class="kw">&lt;/h1&gt;</span></a>
+<a class="sourceLine" id="cb2-20" title="20">    <span class="kw">&lt;p&gt;</span>All the things<span class="kw">&lt;/p&gt;</span></a>
+<a class="sourceLine" id="cb2-21" title="21"><span class="kw">&lt;/article&gt;</span></a></code></pre></div>
+<p>If you want code syntax highlighted, use GitHub Flavored Markdown rendered from <a href="https://developer.github.com/v3/markdown/">GitHub’s <code>/markdown</code> API</a>.</p>
+<h2 id="how">How</h2>
+<p>See <a href="https://github.com/sindresorhus/generate-github-markdown-css"><code>generate-github-markdown-css</code></a> for how it’s generated and ability to generate your own.</p>
+<h2 id="dev">Dev</h2>
+<p>Run <code>npm run make</code> to update the CSS.</p>
+<h2 id="license">License</h2>
+<p>MIT © <a href="https://sindresorhus.com">Sindre Sorhus</a></p>
