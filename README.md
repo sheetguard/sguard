@@ -8,7 +8,7 @@ Nowadays, spreadsheets (e.g., Excel, Google Sheets) are being widely used in man
 
 ### Our solution
 
-Our tool SGuard can effectively detect such spreadsheet defects. As shown in the ![workflow figure](graphics/workflow.png), SGuard learns spreadsheet features to cluster cells with similar computational semantics, and then refine these clusters to recognize anomalous cells as defects. SGuard well balances the trade-off between the precision (87.8%) and recall rate (71.9%) in the defect detection, and achieves an F-measure of 0.79, exceeding existing spreadsheet defect detection techniques.
+Our tool SGuard can effectively detect such spreadsheet defects. As shown in the workflow figure![workflow figure](graphics/workflow.png), SGuard learns spreadsheet features to cluster cells with similar computational semantics, and then refine these clusters to recognize anomalous cells as defects. SGuard well balances the trade-off between the precision (87.8%) and recall rate (71.9%) in the defect detection, and achieves an F-measure of 0.79, exceeding existing spreadsheet defect detection techniques.
 
 ## Usage
 
