@@ -30,9 +30,9 @@ SGuard is fully automated. Everything a user needs is almost one button click.
 
 ![Demo CountPages alpha](graphics/demo_scale.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
-### Video
+## Video
 
-We also provide a vivid [video](xx) presentation on YouTube.
+We also provide a vivid [video](xx) on YouTube to present our methodology, tool usage, etc.
 
 ## Related research work
 
