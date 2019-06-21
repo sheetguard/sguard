@@ -4,6 +4,8 @@
 
 ### Purpose
 
+Nowadays, spreadsheets (e.g., Excel, Google Sheets) are being widely used in many fields, such as, corporate reporting, financial statistics, etc. However, spreadsheets are found to be error-prone, especially for their formula-related cells. These errors (namely, spreadsheet defects) are hard to detect, since spreadsheets are usually not supported by auditing and tracking services and semantic relationships among spreadsheet cells are typically vague.
+
 ### Framework
 
 ## Usage
