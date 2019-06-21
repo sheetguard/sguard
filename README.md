@@ -28,7 +28,7 @@ We brieﬂy introduce SGuard’s usage as below:
 
 SGuard is fully automated. Everything a user needs is almost one button click.
 
-![Demo CountPages alpha](graphics/demo_scale.gif)]
+![Demo CountPages alpha](graphics/demo_scale.gif)
 
 ## Video
 
