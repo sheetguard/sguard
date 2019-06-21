@@ -12,6 +12,8 @@ Nowadays, spreadsheets (e.g., Excel, Google Sheets) are being widely used in man
 
 ### Prerequisites
 
+We have released our tool SGuard as an executable .jar file and tested it on Windows 10 installed with Java 8. For  full functionality, we strongly encourage users to execute SGuard on Windows10, since some components in its implementation need specific DLL files used by Z3 constraint solver.
+
 ### Demonstration
 
 ### Video
