@@ -8,13 +8,17 @@ Nowadays, spreadsheets (e.g., Excel, Google Sheets) are being widely used in man
 
 ### Framework
 
+SGuard learns spreadsheet features to cluster cells with similar computational semantics, and then refine these clusters to recognize anomalous cells as defects. SGuard well balances the trade-off between the precision (87.8%) and recall rate (71.9%) in the defect detection, and achieves an F-measure of 0.79, exceeding existing spreadsheet defect detection techniques.
+
 ## Usage
 
 ### Prerequisites
 
-We have released our tool SGuard as an executable .jar file and tested it on Windows 10 installed with Java 8. For  full functionality, we strongly encourage users to execute SGuard on Windows10, since some components in its implementation need specific DLL files used by Z3 constraint solver.
+We have released our tool SGuard as an executable .jar file and tested it on Windows 10 installed with Java 8. For  full functionality, we strongly encourage users to execute SGuard on Windows 10, since its partial functionality need platform-dependent DLL files used by Z3 constraint solver.
 
 ### Demonstration
+
+
 
 ### Video
 
@@ -22,7 +26,7 @@ We also provide a vivid [video](xx) presentation on YouTube.
 
 ## Related research work
 
-This tool SGuard is based on our previous work, [CUSTODES](https://dl.acm.org/citation.cfm?id=2884796) (ICSE16) and [WARDER](https://cs.nju.edu.cn/changxu/1_publications/QRS19.pdf) (QRS19). For further information about CUSTODES, you can visit another [website](http://sccpu2.cse.ust.hk/custodes/) maintained by HKUST research group.
+This tool SGuard builds on our previous work, [CUSTODES](https://dl.acm.org/citation.cfm?id=2884796) (ICSE16) and [WARDER](https://cs.nju.edu.cn/changxu/1_publications/QRS19.pdf) (QRS19). For further information about CUSTODES, you can visit another [website](http://sccpu2.cse.ust.hk/custodes/).
 
 ## Contact us
 
