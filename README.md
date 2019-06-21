@@ -28,7 +28,7 @@ We brieﬂy introduce SGuard’s usage as below:
 
 SGuard is fully automated. Everything a user needs is almost one button click.
 
-<video id="video" controls="" preload="no" poster="graphics/screenshot.png" width=80%>
+<video id="video" controls="" preload="no" poster="graphics/example.png" width=80%>
       <source id="mp4" src="graphics/demo.mp4" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
