@@ -18,7 +18,20 @@ We have released our tool SGuard as an executable jar file and tested it on Wind
 
 ### Demonstration
 
+We brieﬂy introduce SGuard’s usage as below:
 
+1. First, to select a specific Excel spreadsheet file for analysis, a user clicks the “Open Excel File” button in the menu bar and then all its associated worksheets would be listed in the left “Worksheet list” area for watch.
+2. After that, the user can select one or multiple spreadsheet defect detection techniques from the right “Internal techs” panel to analyze the worksheets in the opened spreadsheet. Here, note that SGuard not only implemented its own CUSTODES (“CUSTODES” for its published version and “CUST-OPT” for its latest version) and WARDER techniques as we mentioned before, but also integrated three existing popular defect detection techniques, i.e., AmCheck, CACheck, and TableCheck, so that its user can easily choose different techniques for comparison.
+3. Then, with a worksheet selected from the left panel and (multiple) technique(s) selected from the right panel, the user can click “Start analysis” to start SGuard’s defect detection process. When the analyses are complete, the results (i.e., worksheet with colored annotations) would be shown in the central panel for the selected worksheet.
+4. Then one can choose to inspect certain results (cell clusters annotated by different colors or defects annotated by red triangles) by clicking “Defective cells” or “Marked clusters” buttons in the right middle panel.
+5. Moreover, users can also easily save the detection results (worksheets with annotations) into ﬁles by clicking the “Save to files” button for later analyses or reuse. Some logging information would also be shown during the SGuard execution (e.g., “Info” and “Logs” panels) for deeper investigation.
+
+SGuard is fully automated. Everything a user needs is almost one button click. 
+
+<video id="video" controls="" preload="no" poster="graphics/screenshot.png">
+      <source id="mp4" src="graphics/demo.mp4" type="video/mp4">
+      <p>Your user agent does not support the HTML5 Video element.</p>
+</video>
 
 ### Video
 
@@ -26,7 +39,7 @@ We also provide a vivid [video](xx) presentation on YouTube.
 
 ## Related research work
 
-This tool SGuard builds on our previous work, [CUSTODES](https://dl.acm.org/citation.cfm?id=2884796) (ICSE16) and [WARDER](https://cs.nju.edu.cn/changxu/1_publications/QRS19.pdf) (QRS19). For further information about CUSTODES, you can visit another [website](http://sccpu2.cse.ust.hk/custodes/).
+This tool SGuard is submitted to [ASE 2019 Demonstrations Track](https://2019.ase-conferences.org/track/ase-2019-Demonstrations), and builds on our previous work, [CUSTODES](https://dl.acm.org/citation.cfm?id=2884796) (ICSE16) and [WARDER](https://cs.nju.edu.cn/changxu/1_publications/QRS19.pdf) (QRS19). For further information about CUSTODES, you can visit another [website](http://sccpu2.cse.ust.hk/custodes/).
 
 ## Contact us
 
