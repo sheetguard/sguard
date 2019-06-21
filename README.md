@@ -26,12 +26,9 @@ We brieﬂy introduce SGuard’s usage as below:
 4. Then one can choose to inspect certain results (cell clusters annotated by different colors or defects annotated by red triangles) by clicking “Defective cells” or “Marked clusters” buttons in the right middle panel.
 5. Moreover, users can also easily save the detection results (worksheets with annotations) into ﬁles by clicking the “Save to files” button for later analyses or reuse. Some logging information would also be shown during the SGuard execution (e.g., “Info” and “Logs” panels) for deeper investigation.
 
-SGuard is fully automated. Everything a user needs is almost one button click.![screenshot](graphics/screenshot.png)
+SGuard is fully automated. Everything a user needs is almost one button click.
 
-<video id="video" controls="" preload="no">
-      <source id="mp4" src="graphics/demo_scale.mp4" type="video/mp4">
-      <p>Your user agent does not support the HTML5 Video element.</p>
-</video>
+![Demo CountPages alpha](graphics/demo_scale.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
 ### Video
 
