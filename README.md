@@ -36,7 +36,7 @@ We also provide a vivid [video](xx) on YouTube to present our methodology, tool 
 
 ## Related research work
 
-This tool SGuard is submitted to [ASE 2019 Demonstrations Track](https://2019.ase-conferences.org/track/ase-2019-Demonstrations), and builds on our previous work, [CUSTODES](https://dl.acm.org/citation.cfm?id=2884796) (ICSE16) and [WARDER](https://cs.nju.edu.cn/changxu/1_publications/QRS19.pdf) (QRS19). For further information about CUSTODES, you can visit another [website](http://sccpu2.cse.ust.hk/custodes/).
+SGuard's demonstration is submitted to [ASE 2019 Demonstrations Track](https://2019.ase-conferences.org/track/ase-2019-Demonstrations), and this tool itself builds on our previous work, [CUSTODES](https://dl.acm.org/citation.cfm?id=2884796) (ICSE16) and [WARDER](https://cs.nju.edu.cn/changxu/1_publications/QRS19.pdf) (QRS19). For further information about CUSTODES, you can visit another [website](http://sccpu2.cse.ust.hk/custodes/).
 
 ## Contact us
 
