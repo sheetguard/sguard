@@ -14,7 +14,7 @@ Our tool SGuard can effectively detect such spreadsheet defects. As shown in the
 
 ### Prerequisites
 
-We have released our tool SGuard as an executable jar file and tested it on Windows 10 installed with Java 8. For  full functionality, we strongly encourage users to execute SGuard on Windows 10, since its partial functionality need platform-dependent DLL files used by the Z3 constraint solver.
+We have released our tool SGuard as an executable jar file and tested it on Windows 10 installed with Java 8. For  full functionality, we strongly encourage users to execute SGuard on Windows, since its partial functionality need platform-dependent DLL files used by the Z3 constraint solver.
 
 ### Demonstration
 
@@ -24,7 +24,8 @@ We brieﬂy introduce SGuard’s usage as below:
 2. After that, the user can select one or multiple spreadsheet defect detection techniques from the right “Internal techs” panel to analyze the worksheets in the opened spreadsheet. Here, note that SGuard not only implemented its own CUSTODES (“CUSTODES” for its published version and “CUST-OPT” for its latest version) and WARDER techniques, but also integrated three existing popular defect detection techniques, i.e., AmCheck, CACheck, and TableCheck, so that its user can easily choose different techniques for comparison.
 3. Then, with a worksheet selected from the left panel and (multiple) technique(s) selected from the right panel, the user can click “Start analysis” to start SGuard’s defect detection process. When the analyses are complete, the results (i.e., worksheet with colored annotations) would be shown in the central panel for the selected worksheet.
 4. Then one can choose to inspect certain results (cell clusters annotated by different colors or defects annotated by red triangles) by clicking “Defective cells” or “Marked clusters” buttons in the right middle panel.
-5. Moreover, users can also easily save the detection results (worksheets with annotations) into ﬁles by clicking the “Save to files” button for later analyses or reuse. Some logging information would also be shown during the SGuard execution (e.g., “Info” and “Logs” panels) for deeper investigation.
+5. In the “defective cells" part, you can simultaneously select multiple techniques to show all defective cells detected by at least one technique, while in the "marked clusters" part, the clustering result is shown one by one to avoid confusion.
+6. Moreover, users can also easily save the detection results (worksheets with annotations) into files by clicking the “Save to files” button for later analyses or reuse. Some logging information would also be shown during the SGuard execution (e.g., “Info” and “Logs” panels) for deeper investigation.
 
 SGuard is fully automated. Everything a user needs is almost one button click.
 
