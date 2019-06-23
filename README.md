@@ -16,6 +16,10 @@ Our tool SGuard can effectively detect such spreadsheet defects. As shown in the
 
 We have released our tool SGuard as an executable jar file and tested it on Windows 10 installed with Java 8. For  full functionality, we strongly encourage users to execute SGuard on Windows, since its partial functionality need platform-dependent DLL files used by the Z3 constraint solver.
 
+### Execution
+
+Please download all files in the [sguard/tools](https://github.com/sheetguard/sguard/tree/master/tools) directory. We release our SGuard's obfuscated version named "SGuard.jar", which can be executed with a command "java -cp SGuard.jar ui.MainUI". Have fun with our tool!
+
 ### Demonstration
 
 We brieﬂy introduce SGuard’s usage as below:
