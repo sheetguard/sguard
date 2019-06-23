@@ -37,7 +37,7 @@ SGuard is fully automated. Everything a user needs is almost one button click.
 
 ## Video
 
-We also provide a YouTube [video](https://youtu.be/6oT3fMns1xY) to present our methodology, tool usage, etc.
+We also provide a YouTube [video](https://youtu.be/gNPmMvQVf5Q) to present our methodology, tool usage, etc.
 
 ## Related research work
 
