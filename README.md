@@ -10,7 +10,7 @@ Nowadays, spreadsheets (e.g., Excel, Google Sheets) are being widely used in man
 
 Our tool SGuard can effectively detect such spreadsheet defects. As shown in the workflow figure below, SGuard learns spreadsheet features to cluster cells with similar computational semantics, and then refine these clusters to recognize anomalous cells as defects. SGuard well balances the trade-off between the precision (87.8%) and recall rate (71.9%) in the defect detection, and achieves an F-measure of 0.79 on selected spreadsheets from the EUSES corpus. ![image](graphics/workflow.png)
 
-## Usage
+## Demonstration
 
 ### Prerequisites
 
@@ -20,7 +20,7 @@ We have released our tool SGuard as an executable jar file and tested it on Wind
 
 Please download all files in the [sguard/tools](https://github.com/sheetguard/sguard/tree/master/tools) directory. We release our SGuard's obfuscated version named "SGuardGUI.jar", which can be executed with a command "java -cp SGuardGUI.jar ui.MainUI". Have fun with our tool!
 
-### Demonstration
+### Usage
 
 We brieﬂy introduce SGuard’s usage as below:
 
