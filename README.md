@@ -18,7 +18,7 @@ We have released our tool SGuard as an executable jar file and tested it on Wind
 
 ### Execution
 
-Please download all files in the [sguard/tools](https://github.com/sheetguard/sguard/tree/master/tools) directory. We release our SGuard's obfuscated version named "SGuardGUI.jar", which can be executed with a command "java -cp SGuardGUI.jar ui.MainUI". Have fun with our tool!
+We release our SGuard's obfuscated version named "SGuardGUI.jar", which can be executed with a command "java -cp SGuardGUI.jar ui.MainUI". Before executing this command, please download all files in the [sguard/tools](https://github.com/sheetguard/sguard/tree/master/tools) directory, especially those DLL files. Have fun with our tool!
 
 ### Usage
 
