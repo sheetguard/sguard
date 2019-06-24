@@ -1,5 +1,10 @@
 # SGuard Homepage
 
+## Resources
+
+1. [Video](https://youtu.be/gNPmMvQVf5Q) uploaded on YouTube
+2. [tool package](https://github.com/sheetguard/sguard/tree/master/tools) released for public access
+
 ## Introduction
 
 ### End-users' puzzle
@@ -18,7 +23,7 @@ We have released our tool SGuard as an executable jar file and tested it on Wind
 
 ### Execution
 
-We release our SGuard's obfuscated version named "SGuardGUI.jar", which can be executed with a command "java -cp SGuardGUI.jar ui.MainUI". Before executing this command, please download all files in the [sguard/tools](https://github.com/sheetguard/sguard/tree/master/tools) directory, especially those DLL files. Have fun with our tool!
+We release our SGuard's obfuscated version named "SGuardGUI.jar", which can be executed with a command "java -cp SGuardGUI.jar ui.MainUI". Before executing this command, please download all files in the [sguard/tools](c) directory, especially those DLL files. Have fun with our tool!
 
 ### Usage
 
@@ -34,10 +39,6 @@ We brieﬂy introduce SGuard’s usage as below:
 SGuard is fully automated. Everything a user needs is almost one button click.
 
 ![Demo CountPages alpha](videos/demo_scale.gif)
-
-## Video
-
-We also provide a YouTube [video](https://youtu.be/gNPmMvQVf5Q) to present our methodology, tool usage, etc.
 
 ## Related research work
 
