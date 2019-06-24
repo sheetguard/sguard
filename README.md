@@ -3,7 +3,8 @@
 ## Resources
 
 1. [Video](https://youtu.be/gNPmMvQVf5Q) uploaded on YouTube
-2. [tool package](https://github.com/sheetguard/sguard/tree/master/tools) released for public access
+2. [Tool package](https://github.com/sheetguard/sguard/tree/master/tools) released for public access, whose execution details are below
+3. [SGuard homepage](https://sheetguard.github.io/sguard)
 
 ## Introduction
 
