@@ -24,7 +24,7 @@ We have released our tool SGuard as an executable jar file and tested it on Wind
 
 ### Execution
 
-We release our SGuard's obfuscated version named "SGuardGUI.jar", which can be executed with a command "java -cp SGuardGUI.jar ui.MainUI". Before executing this command, please download all files in the [sguard/tools](c) directory, especially those DLL files. Have fun with our tool!
+We release our SGuard's obfuscated version named "SGuardGUI-obf.jar", which can be executed with a command "java -jar SGuardGUI-obf.jar". Before executing this command, please download all files in the [sguard/tools](c) directory, especially those DLL files. Besides, we add two test files in TestCases directory. Have fun with our tool!
 
 ### Usage
 
